@@ -160,7 +160,7 @@ public class BackgroundActivity extends AsyncTask<String,Void,String> {
     protected void onProgressUpdate(Void... values) {
         super.onProgressUpdate(values);
     }
-
+    // Display some message
     public void display(String title, String message){
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setCancelable(true);

@@ -18,10 +18,10 @@ public class SignupActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        etName = (EditText) findViewById(R.id.username);
-        etEmail = (EditText) findViewById(R.id.email);
-        etPassword = (EditText) findViewById(R.id.password);
-        btnRegister = (Button) findViewById(R.id.register);
+        etName = findViewById(R.id.username);
+        etEmail = findViewById(R.id.email);
+        etPassword = findViewById(R.id.password);
+        btnRegister = findViewById(R.id.register);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
