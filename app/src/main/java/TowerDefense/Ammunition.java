@@ -1,4 +1,4 @@
 package TowerDefense;
 
-interface Ammunition {
+abstract class Ammunition {
 }
