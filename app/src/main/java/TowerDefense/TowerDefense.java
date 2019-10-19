@@ -6,7 +6,6 @@ class TowerDefense {
     int waves = 1;
 
     public void play(){
-
     }
 
 }
