@@ -5,13 +5,16 @@ abstract class Tower {
     private int firingFrequency;
     private int range;
     private Ammunition ammo;
+    private int x;
+    private int y;
 
     Tower(){
     }
 
     abstract Ammunition attack();
 
-
+    int getX(){return x;}
+    int getY(){return y;}
     int getCost() {
         return cost;
     }
