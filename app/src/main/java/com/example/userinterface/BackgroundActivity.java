@@ -146,7 +146,7 @@ public class BackgroundActivity extends AsyncTask<String,Void,String> {
                 editor.commit();
                 editor.putString("email",email);
                 editor.commit();
-                Intent intent = new Intent(context, TowerDefense.class);
+                Intent intent = new Intent(context, TowerDefenseActivity.class);
                 context.startActivity(intent);
             }else{
                 display("Login Failed...", "That email and password do not match our records :(.");
