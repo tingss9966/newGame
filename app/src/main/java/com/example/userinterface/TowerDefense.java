@@ -1,4 +1,4 @@
-package TowerDefense;
+package com.example.userinterface;
 
 class TowerDefense {
     User user;
